@@ -8,9 +8,7 @@
 </head>
 <body class="bg-gray-900 text-white">
     <div class="flex flex-col items-center justify-center min-h-screen">
-        <a class=" bg-green-500 p-4 px-4 mb-4 rounded" href="/products">Product Page</a>
-        <a class=" bg-red-500 p-4 px-4 mb-4 rounded" href="/about">About Us</a>
-        <h1 class="text-3xl bg-blue-500 p-4 rounded-xl">Hello Shyam</h1>
+        {{ $slot }}
     </div>
 </body>
 </html>
